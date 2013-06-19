@@ -1,0 +1,9 @@
+{#feed}
+<a href="{link}" target="_NEW">
+	<img src="{thumb}">
+	<div class="info">
+		<div class="from">{from}</div>
+		<div class="caption">{caption}</div>
+	</div>
+</a>
+{/feed}
