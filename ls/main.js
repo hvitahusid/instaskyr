@@ -3,12 +3,11 @@ $(function(){
   instafeed = new Instafeed({
     clientId: '3d26c3c843b34294954a8a0abbf9a1d0',
     get: 'tagged',
-    tagName: 'skyr',
+    tagName: 'skyris',
     mock: true,
     limit: 60,
     success: function(data){
       var feed, i$, ref$, len$, item, caption, e, _from, this$ = this;
-      console.log(data);
       feed = [];
       for (i$ = 0, len$ = (ref$ = data.data).length; i$ < len$; ++i$) {
         item = ref$[i$];
