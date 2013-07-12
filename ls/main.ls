@@ -2,7 +2,7 @@ $ ->
     instafeed = new Instafeed do
         clientId: '3d26c3c843b34294954a8a0abbf9a1d0',
         get: 'tagged',
-        tagName: 'skyris',
+        tagName: 'skyrvordur',
         mock: true,
         limit: 60,
         success: (data) ->
